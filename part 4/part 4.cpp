@@ -31,3 +31,14 @@ int main() {
 		cin.ignore(1, '\n');
 		cout << endl;
 	}
+
+	for (int i = 0; i < 3; i++) {
+		cout << endl;
+		cout << "Data Mahasiswa ke-" << (i + 1) << ":" << endl;
+		cout << "\n Nim : " << mhs[i].nim;
+		cout << "\n Nama : " << mhs[i].nama;
+		cout << "\t \n Desa : " << mhs[i].alamat.Desa;
+		cout << "\t \n Kota : " << mhs[i].alamat.Kota;
+		cout << "\n Umur : " << mhs[i].umur;
+	}
+}
