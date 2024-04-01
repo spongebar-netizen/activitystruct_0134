@@ -13,4 +13,5 @@ struct Mahasiswa {
 	string nama;
 	DetailAlamat alamat;
 	int umur;
+
 };
